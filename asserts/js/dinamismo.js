@@ -16,37 +16,37 @@ function verificar() {
              gênero = 'Homem'
              if (idade > 0 && idade <= 10){
                  //criação 
-                 img.setAttribute('src', './imgs/criancaMas.jpg')
+                 img.setAttribute('src', 'asserts/imgs/criancaMas.jpg')
              }
              else if (idade > 10 && idade < 21) {
                  //adolescente 
-                 img.setAttribute('src', './imgs/adolescenteMas.jpg')
+                 img.setAttribute('src', 'asserts/imgs/adolescenteMas.jpg')
              }
              else if (idade >= 21 && idade < 50) {
                  //Adulto 
-                 img.setAttribute('src', './imgs/adultoMas.jpg')
+                 img.setAttribute('src', 'asserts/imgs/adultoMas.jpg')
              } 
              else {
                  //velho
-                 img.setAttribute('src', './imgs/velhoMas.jpg')
+                 img.setAttribute('src', 'asserts/imgs/velhoMas.jpg')
              }
          } else if (fsex[1].checked){
                 gênero = 'Feminino'
                 if (idade > 0 && idade <= 10){
                     //criação 
-                    img.setAttribute('src', './imgs/criancaFem.jpg')
+                    img.setAttribute('src', 'asserts/imgs/criancaFem.jpg')
                 }
                 else if (idade > 10 && idade < 21) {
                     //adolescente 
-                    img.setAttribute('src', './imgs/adolescenteFem.jpg')
+                    img.setAttribute('src', 'asserts/imgs/adolescenteFem.jpg')
                 }
                 else if (idade >= 21 && idade < 50) {
                     //Adulto 
-                    img.setAttribute('src', './imgs/adultoFem.jpg')
+                    img.setAttribute('src', 'asserts/imgs/adultoFem.jpg')
                 } 
                 else {
                     //velho
-                    img.setAttribute('src', './imgs/velhoFem.jpg')
+                    img.setAttribute('src', 'asserts/imgs/velhoFem.jpg')
                 }
          }
          res.style.textAlign = 'center'
