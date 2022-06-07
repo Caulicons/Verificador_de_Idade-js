@@ -1,0 +1,66 @@
+body {
+     background: lightblue;
+     font: normal 15pt arial;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+section {
+    background: whitesmoke;
+    border-radius: 12px;
+    padding: 50px;
+    width: 70vh;
+    margin: auto;
+    box-shadow: 6px 10px 
+}
+
+button {
+    border: none;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align:center;
+    color: whitesmoke;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    section{
+        display: grid;
+        width: 50%;
+        min-width: 290px;
+        padding: 20px ;
+    }
+    
+    section p{
+        display: grid;
+        font-size: 1rem;
+        font-weight: bold;
+        justify-items: center;
+    }
+
+    section div{
+        display: grid;
+        font-weight: bold;
+        justify-items: center;
+    }
+
+    .sexo {
+        display: flex;
+        justify-content: space-around;
+        width: 250px;
+    }
+    
+}   
