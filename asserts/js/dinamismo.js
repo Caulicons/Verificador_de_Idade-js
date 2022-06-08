@@ -13,7 +13,7 @@ function verificar() {
         let img = document.createElement('img')
         img.setAttribute('id', 'foto') 
          if (fsex[0].checked) {
-             gênero = 'Homem'
+             gênero = 'Masculino'
              if (idade > 0 && idade <= 10){
                  //criação 
                  img.setAttribute('src', 'asserts/imgs/criancaMas.jpg')
@@ -50,10 +50,9 @@ function verificar() {
                 }
          }
          res.style.textAlign = 'center'
-         res.innerHTML = `Detectamos ${gênero} com ${idade} anos.`
+         res.innerHTML = `Detectamos gênero ${gênero} com ${idade} anos.`
          res.appendChild(img)
     }
-        
         }
 
         document.addEventListener("keypress", (event) => {
