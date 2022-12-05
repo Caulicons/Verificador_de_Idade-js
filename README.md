@@ -1,5 +1,7 @@
 # Verificar de Idade 
 
+![project preview](./preview.gif)
+
 Aqui você após adicionar uma sua data de nascimento valida - você provavelmente não vai ter mais que 100 anos -, e escolhe seu sexo,  irar retorna sua idade e uma foto de uma pessoa nessa faixa etária. 
 
 Fiz essa página enquanto estava aprendendo o básico do javascript.
